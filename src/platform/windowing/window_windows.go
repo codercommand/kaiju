@@ -20,7 +20,7 @@ import (
 )
 
 /*
-#cgo LDFLAGS: -lgdi32 -lXInput -ldwmapi
+#cgo LDFLAGS: -lgdi32 -lxinput1_4 -ldwmapi
 #cgo noescape get_toggle_key_state
 #cgo noescape window_main
 #cgo noescape window_show
